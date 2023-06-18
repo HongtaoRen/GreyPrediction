@@ -152,11 +152,6 @@ if __name__ == '__main__':
     print(predict_values)
     print(model.__dict__['coff'])
     print(model.__dict__["sim_data"])
-    new_sim_data = [data * 41923 for data in model.__dict__["sim_data"]]
-    print(new_sim_data)
-    print(model.__dict__.keys())
-    scaled_values = [value * 41923 for value in sim_cdgm_data]
-    print(scaled_values)
     print(sim_cdgm_data)
     print(cc)
     cc_mean = np.mean(cc)
